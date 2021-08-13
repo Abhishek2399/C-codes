@@ -1,0 +1,6 @@
+D:\capgemini\training\technical\day#4_task\Entertainment\Entertainment\bin\Debug\Entertainment.dll
+D:\capgemini\training\technical\day#4_task\Entertainment\Entertainment\bin\Debug\Entertainment.pdb
+D:\capgemini\training\technical\day#4_task\Entertainment\Entertainment\obj\Debug\Entertainment.csproj.AssemblyReference.cache
+D:\capgemini\training\technical\day#4_task\Entertainment\Entertainment\obj\Debug\Entertainment.csproj.CoreCompileInputs.cache
+D:\capgemini\training\technical\day#4_task\Entertainment\Entertainment\obj\Debug\Entertainment.dll
+D:\capgemini\training\technical\day#4_task\Entertainment\Entertainment\obj\Debug\Entertainment.pdb

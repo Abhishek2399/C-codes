@@ -1,0 +1,7 @@
+D:\capgemini\training\technical\day#4_task\ExceptionPractice\ExceptionPractice\bin\Debug\ExceptionPractice.exe.config
+D:\capgemini\training\technical\day#4_task\ExceptionPractice\ExceptionPractice\bin\Debug\ExceptionPractice.exe
+D:\capgemini\training\technical\day#4_task\ExceptionPractice\ExceptionPractice\bin\Debug\ExceptionPractice.pdb
+D:\capgemini\training\technical\day#4_task\ExceptionPractice\ExceptionPractice\obj\Debug\ExceptionPractice.csproj.AssemblyReference.cache
+D:\capgemini\training\technical\day#4_task\ExceptionPractice\ExceptionPractice\obj\Debug\ExceptionPractice.csproj.CoreCompileInputs.cache
+D:\capgemini\training\technical\day#4_task\ExceptionPractice\ExceptionPractice\obj\Debug\ExceptionPractice.exe
+D:\capgemini\training\technical\day#4_task\ExceptionPractice\ExceptionPractice\obj\Debug\ExceptionPractice.pdb

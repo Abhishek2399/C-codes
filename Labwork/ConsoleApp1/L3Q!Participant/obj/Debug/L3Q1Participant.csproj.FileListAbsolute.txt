@@ -1,0 +1,6 @@
+D:\capgemini\training\technical\Labwork\ConsoleApp1\L3Q!Participant\bin\Debug\L3Q!Participant.dll
+D:\capgemini\training\technical\Labwork\ConsoleApp1\L3Q!Participant\bin\Debug\L3Q!Participant.pdb
+D:\capgemini\training\technical\Labwork\ConsoleApp1\L3Q!Participant\obj\Debug\L3Q1Participant.csproj.AssemblyReference.cache
+D:\capgemini\training\technical\Labwork\ConsoleApp1\L3Q!Participant\obj\Debug\L3Q1Participant.csproj.CoreCompileInputs.cache
+D:\capgemini\training\technical\Labwork\ConsoleApp1\L3Q!Participant\obj\Debug\L3Q!Participant.dll
+D:\capgemini\training\technical\Labwork\ConsoleApp1\L3Q!Participant\obj\Debug\L3Q!Participant.pdb

@@ -1,0 +1,6 @@
+D:\capgemini\training\technical\Labwork\QuetsionsDLL\Q1Employee\Q1Employee\bin\Debug\Q1Employee.dll
+D:\capgemini\training\technical\Labwork\QuetsionsDLL\Q1Employee\Q1Employee\bin\Debug\Q1Employee.pdb
+D:\capgemini\training\technical\Labwork\QuetsionsDLL\Q1Employee\Q1Employee\obj\Debug\Q1Employee.csproj.AssemblyReference.cache
+D:\capgemini\training\technical\Labwork\QuetsionsDLL\Q1Employee\Q1Employee\obj\Debug\Q1Employee.csproj.CoreCompileInputs.cache
+D:\capgemini\training\technical\Labwork\QuetsionsDLL\Q1Employee\Q1Employee\obj\Debug\Q1Employee.dll
+D:\capgemini\training\technical\Labwork\QuetsionsDLL\Q1Employee\Q1Employee\obj\Debug\Q1Employee.pdb

@@ -1,0 +1,12 @@
+D:\capgemini\cap training\technical\day#2\Greetings\Greetings\bin\Debug\Greetings.dll
+D:\capgemini\cap training\technical\day#2\Greetings\Greetings\bin\Debug\Greetings.pdb
+D:\capgemini\cap training\technical\day#2\Greetings\Greetings\obj\Debug\Greetings.csproj.AssemblyReference.cache
+D:\capgemini\cap training\technical\day#2\Greetings\Greetings\obj\Debug\Greetings.csproj.CoreCompileInputs.cache
+D:\capgemini\cap training\technical\day#2\Greetings\Greetings\obj\Debug\Greetings.dll
+D:\capgemini\cap training\technical\day#2\Greetings\Greetings\obj\Debug\Greetings.pdb
+D:\capgemini\training\technical\day#2\Greetings\Greetings\bin\Debug\Greetings.dll
+D:\capgemini\training\technical\day#2\Greetings\Greetings\bin\Debug\Greetings.pdb
+D:\capgemini\training\technical\day#2\Greetings\Greetings\obj\Debug\Greetings.csproj.AssemblyReference.cache
+D:\capgemini\training\technical\day#2\Greetings\Greetings\obj\Debug\Greetings.csproj.CoreCompileInputs.cache
+D:\capgemini\training\technical\day#2\Greetings\Greetings\obj\Debug\Greetings.dll
+D:\capgemini\training\technical\day#2\Greetings\Greetings\obj\Debug\Greetings.pdb

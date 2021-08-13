@@ -1,0 +1,6 @@
+D:\capgemini\training\technical\Labwork\QuetsionsDLL\L1Q2ArithCal\L1Q2ArithCal\bin\Debug\L1Q2ArithCal.dll
+D:\capgemini\training\technical\Labwork\QuetsionsDLL\L1Q2ArithCal\L1Q2ArithCal\bin\Debug\L1Q2ArithCal.pdb
+D:\capgemini\training\technical\Labwork\QuetsionsDLL\L1Q2ArithCal\L1Q2ArithCal\obj\Debug\L1Q2ArithCal.csproj.AssemblyReference.cache
+D:\capgemini\training\technical\Labwork\QuetsionsDLL\L1Q2ArithCal\L1Q2ArithCal\obj\Debug\L1Q2ArithCal.csproj.CoreCompileInputs.cache
+D:\capgemini\training\technical\Labwork\QuetsionsDLL\L1Q2ArithCal\L1Q2ArithCal\obj\Debug\L1Q2ArithCal.dll
+D:\capgemini\training\technical\Labwork\QuetsionsDLL\L1Q2ArithCal\L1Q2ArithCal\obj\Debug\L1Q2ArithCal.pdb

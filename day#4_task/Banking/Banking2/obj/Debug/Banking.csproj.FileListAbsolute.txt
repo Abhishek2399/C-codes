@@ -1,0 +1,5 @@
+D:\capgemini\training\technical\day#4_task\Banking\Banking2\bin\Debug\Banking2.dll
+D:\capgemini\training\technical\day#4_task\Banking\Banking2\bin\Debug\Banking2.pdb
+D:\capgemini\training\technical\day#4_task\Banking\Banking2\obj\Debug\Banking.csproj.CoreCompileInputs.cache
+D:\capgemini\training\technical\day#4_task\Banking\Banking2\obj\Debug\Banking2.dll
+D:\capgemini\training\technical\day#4_task\Banking\Banking2\obj\Debug\Banking2.pdb

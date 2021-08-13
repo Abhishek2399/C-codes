@@ -1,0 +1,13 @@
+D:\capgemini\training\technical\Labwork\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.exe.config
+D:\capgemini\training\technical\Labwork\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.exe
+D:\capgemini\training\technical\Labwork\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.pdb
+D:\capgemini\training\technical\Labwork\ConsoleApp1\ConsoleApp1\bin\Debug\Q1Employee.pdb
+D:\capgemini\training\technical\Labwork\ConsoleApp1\ConsoleApp1\obj\Debug\LabWork.csproj.AssemblyReference.cache
+D:\capgemini\training\technical\Labwork\ConsoleApp1\ConsoleApp1\obj\Debug\LabWork.csproj.CoreCompileInputs.cache
+D:\capgemini\training\technical\Labwork\ConsoleApp1\ConsoleApp1\obj\Debug\LabWork.csproj.CopyComplete
+D:\capgemini\training\technical\Labwork\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.exe
+D:\capgemini\training\technical\Labwork\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.pdb
+D:\capgemini\training\technical\Labwork\ConsoleApp1\ConsoleApp1\bin\Debug\L1Q2ArithCal.dll
+D:\capgemini\training\technical\Labwork\ConsoleApp1\ConsoleApp1\bin\Debug\L1Q2ArithCal.pdb
+D:\capgemini\training\technical\Labwork\ConsoleApp1\ConsoleApp1\bin\Debug\L3Q!Participant.dll
+D:\capgemini\training\technical\Labwork\ConsoleApp1\ConsoleApp1\bin\Debug\L3Q!Participant.pdb
