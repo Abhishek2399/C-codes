@@ -10,6 +10,7 @@ namespace IOFileDemo
     
     class SOAPSerializationTest
     {
+
         static private string SOAPSerializeData()
         {
             string toFile = "SOAPMovieSerializedObjs.soap";

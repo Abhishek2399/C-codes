@@ -9,7 +9,7 @@ namespace IOFileDemo
 {
     [Serializable] // [] -> this is an attribute 
     // to tell the compiler that this class can be serializable 
-    // for xml serialization the class has to be public 
+    // for XML serialization the class has to be public 
     public class SerializableMovie : ISerializable
     {
         public int ID { get; set; }

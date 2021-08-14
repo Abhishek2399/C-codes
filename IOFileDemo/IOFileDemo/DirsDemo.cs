@@ -16,8 +16,11 @@ namespace IOFileDemo
              */
             DirectoryInfo dirInfo = new DirectoryInfo(@"d:\capgemini\training\technical"); // constr. will accept the folder directory we want information regarding 
             // if we have more than one folder we can create an array of folder 
+            
 
             DirectoryInfo[] subDirs = dirInfo.GetDirectories(); // will get all the folders inside the parent folder here it is the "d:\capgemini\training\technical 
+
+
             foreach(var dir in subDirs)
             {
                 Console.WriteLine("------------------------");
@@ -45,7 +48,7 @@ namespace IOFileDemo
             {
                 // we need to decide on which level we are creating folder 
                 DirectoryInfo subDir = new DirectoryInfo(@"d:\capgemini\training\technical\day#7"); //  choosing the dir we want to create the folder in 
-                subDir.CreateSubdirectory("TestDirCreation2"); // passing the folder name we want to create
+                subDir.CreateSubdirectory("AbhiTest"); // passing the folder name we want to create
                 subDirs = subDir.GetDirectories(); // checking if the folders created 
                 Console.WriteLine("Folder/Dir created successfully");
             }

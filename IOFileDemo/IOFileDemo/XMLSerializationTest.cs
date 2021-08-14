@@ -10,7 +10,8 @@ namespace IOFileDemo
 {
     public class XMLSerializationTest
     {
-        static private string XMLSerializeData() // for xml serialization of any class the class has to be public 
+
+        static private string XMLSerializeData() // for XML serialization of any class the class has to be public 
         {
             SerializableMovie serialMovie = new SerializableMovie { Name = "Rushmore", ID = 127, Rating = 5, Year = 2009 };
             XmlSerializer xmlSerialize = new XmlSerializer(typeof(SerializableMovie)); // this will give meta data of class movie 
@@ -41,7 +42,6 @@ namespace IOFileDemo
         static void Main()
         {
             //XMLSerializeData();
-            
             try
             {
                 string soapSerialFile = XMLSerializeData();
@@ -52,10 +52,6 @@ namespace IOFileDemo
             {
                 Console.WriteLine(ex.Message);
             }
-            //SerializableMovie mv = XMLDeSerializeData(soapSerialFile) as SerializableMovie;
-            //Console.WriteLine(mv);
-            
         }
-
     }
 }

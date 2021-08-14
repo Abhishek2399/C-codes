@@ -10,6 +10,7 @@ namespace IOFileDemo
 {
     class BinarySerializationTest
     {
+
         static void Main()
         {
             string file;
