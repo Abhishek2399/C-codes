@@ -46,7 +46,7 @@ namespace IOFileDemo
             #region Reading text file using stream reader / Copying content from one file to another 
             StreamWriter sw; // this is the object of file we just created 
             bool toAppend;
-            StreamReader sr = new StreamReader("TestFileAppend.txt"); // reading the file we created in above region 
+            StreamReader sr = new StreamReader(path+fileName); // reading the file we created in above region 
             
             string fileData;
             int lineNo = 0;
