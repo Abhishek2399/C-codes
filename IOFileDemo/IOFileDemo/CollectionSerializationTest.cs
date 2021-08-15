@@ -95,20 +95,17 @@ namespace IOFileDemo
 
         static void JsonDeserialize(string fromFile)
         {
-                List<SerializableMovie> deSerializedMovies = new List<SerializableMovie>();
-            
+            try
+            {
+                List<SerializableMovie> deSerializedMovies = new List<SerializableMovie>();            
                 using (StreamReader fileStream = new StreamReader(path + fromFile))
                 {
                     using (JsonReader jReader = new JsonTextReader(fileStream))
                     {
                         JsonSerializer js = new JsonSerializer();
                         deSerializedMovies = js.Deserialize<List<SerializableMovie>>(jReader);
-                        Console.WriteLine("Done JSON De-Serialization");
-
                     }
                 }
-            try
-            {
                 foreach (var mv in deSerializedMovies)
                 {
                     Console.WriteLine(mv);
@@ -118,6 +115,8 @@ namespace IOFileDemo
             {
                 throw ex;
             }
+            Console.WriteLine("Done JSON De-Serialization");
+
         }
 
         static void Main()
