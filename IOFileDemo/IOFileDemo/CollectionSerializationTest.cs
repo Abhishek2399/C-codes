@@ -46,15 +46,15 @@ namespace IOFileDemo
             }
         }
 
-        //------------------------------Json serialization of collection using JsonConvert----------------------//
-        static string JsonConvertSerialize() // using json convert 
+        //------------------------------JSON serialization of collection using JsonConvert----------------------//
+        static string JsonConvertSerialize() // using JSON convert 
         {
             string toFile = "CollectionJSONConvertSerialize.txt";
             using (StreamWriter sw = new StreamWriter(path + toFile))
             {
-                string data = JsonConvert.SerializeObject(movies); // serializing the object we want returns string of json
+                string data = JsonConvert.SerializeObject(movies); // serializing the object we want returns string of JSON
                 Console.WriteLine(data);
-                sw.WriteLine(data); // data stored in in form of text and in one single line 
+                sw.WriteLine(data); // data stored in form of text and in one single line 
             }
             Console.WriteLine("Done JSON Convert serializaton");
             return toFile;
