@@ -46,31 +46,30 @@ namespace IOFileDemo
             #region Reading text file using stream reader / Copying content from one file to another 
             StreamWriter sw; // this is the object of file we just created 
             bool toAppend;
-            StreamReader sr = new StreamReader(path+fileName); // reading the file we created in above region 
-            
+            StreamReader readFrom = new StreamReader(path+fileName); // reading the file we created in above region 
             string fileData;
             int lineNo = 0;
-            while ((fileData = sr.ReadLine()) != null)// checking the end of the file EOF 
+            while ((fileData = readFrom.ReadLine()) != null)// checking the end of the file EOF 
             {
                 lineNo++;
                 Console.WriteLine($"{lineNo}. {fileData}");
             }
 
             // copying the content of this file to another 
-            sr = new StreamReader("TestFileAppend.txt");
+            readFrom = new StreamReader(path+fileName);
             toAppend = false; // as we just need to create a file and write data 
-            sw = new StreamWriter("TestFileAppendCopy.txt", toAppend); 
+            StreamWriter writeTo = new StreamWriter(path+fileName2, toAppend); 
             
-            while ((fileData = sr.ReadLine()) != null)// checking the end of the file EOF 
+            while ((fileData = readFrom.ReadLine()) != null)// checking the end of the file EOF 
             {
                 if (fileData.Length > 1)
                 {
                     Console.WriteLine($"File data -> {fileData}");
-                    sw.WriteLine(fileData);
+                    writeTo.WriteLine(fileData);
                 }
             }
-            sw.Close();
-            sr.Close();
+            writeTo.Close();
+            readFrom.Close();
             #endregion
         }
     }
