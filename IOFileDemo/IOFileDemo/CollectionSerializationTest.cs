@@ -80,7 +80,7 @@ namespace IOFileDemo
 
         static string JsonSerialize()
         {
-            string toFile = "CollectionJSONConvertSerialize.txt";
+            string toFile = "CollectionJSONSerialize.json";
             using (StreamWriter fileStream = new StreamWriter(path+toFile))
             {
                 using (JsonWriter jWriter= new JsonTextWriter(fileStream))
