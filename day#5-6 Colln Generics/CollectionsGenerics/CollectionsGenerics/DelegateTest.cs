@@ -5,8 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace CollectionsGenerics
-{
-    
+{   
     class DelegateTest
     {
         // MyPizza testing 
