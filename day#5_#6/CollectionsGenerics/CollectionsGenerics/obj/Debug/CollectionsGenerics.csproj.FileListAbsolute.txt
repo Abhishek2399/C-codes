@@ -1,7 +1,0 @@
-D:\capgemini\training\technical\day#5\CollectionsGenerics\CollectionsGenerics\bin\Debug\CollectionsGenerics.exe.config
-D:\capgemini\training\technical\day#5\CollectionsGenerics\CollectionsGenerics\bin\Debug\CollectionsGenerics.exe
-D:\capgemini\training\technical\day#5\CollectionsGenerics\CollectionsGenerics\bin\Debug\CollectionsGenerics.pdb
-D:\capgemini\training\technical\day#5\CollectionsGenerics\CollectionsGenerics\obj\Debug\CollectionsGenerics.csproj.AssemblyReference.cache
-D:\capgemini\training\technical\day#5\CollectionsGenerics\CollectionsGenerics\obj\Debug\CollectionsGenerics.csproj.CoreCompileInputs.cache
-D:\capgemini\training\technical\day#5\CollectionsGenerics\CollectionsGenerics\obj\Debug\CollectionsGenerics.exe
-D:\capgemini\training\technical\day#5\CollectionsGenerics\CollectionsGenerics\obj\Debug\CollectionsGenerics.pdb

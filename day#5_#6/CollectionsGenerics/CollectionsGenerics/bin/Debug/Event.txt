@@ -1,6 +1,0 @@
-Rate change event has occured
-Rate Changed from 200 to 250
-Rate Changed from 200 to 250
-Rate Changed from 250 to 1900
-Rate Changed from 1900 to 1990
-Rate Changed from 1990 to 10

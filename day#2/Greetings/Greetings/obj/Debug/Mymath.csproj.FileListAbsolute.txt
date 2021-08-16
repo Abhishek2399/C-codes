@@ -1,5 +1,0 @@
-D:\capgemini\cap training\technical\day#2\Greetings\Greetings\bin\Debug\Greetings.dll
-D:\capgemini\cap training\technical\day#2\Greetings\Greetings\bin\Debug\Greetings.pdb
-D:\capgemini\cap training\technical\day#2\Greetings\Greetings\obj\Debug\Mymath.csproj.CoreCompileInputs.cache
-D:\capgemini\cap training\technical\day#2\Greetings\Greetings\obj\Debug\Greetings.dll
-D:\capgemini\cap training\technical\day#2\Greetings\Greetings\obj\Debug\Greetings.pdb
