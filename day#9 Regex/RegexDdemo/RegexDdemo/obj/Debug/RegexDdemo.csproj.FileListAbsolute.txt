@@ -1,0 +1,7 @@
+D:\capgemini\training\technical\day#9\RegexDdemo\RegexDdemo\bin\Debug\RegexDdemo.exe.config
+D:\capgemini\training\technical\day#9\RegexDdemo\RegexDdemo\bin\Debug\RegexDdemo.exe
+D:\capgemini\training\technical\day#9\RegexDdemo\RegexDdemo\bin\Debug\RegexDdemo.pdb
+D:\capgemini\training\technical\day#9\RegexDdemo\RegexDdemo\obj\Debug\RegexDdemo.csproj.AssemblyReference.cache
+D:\capgemini\training\technical\day#9\RegexDdemo\RegexDdemo\obj\Debug\RegexDdemo.csproj.CoreCompileInputs.cache
+D:\capgemini\training\technical\day#9\RegexDdemo\RegexDdemo\obj\Debug\RegexDdemo.exe
+D:\capgemini\training\technical\day#9\RegexDdemo\RegexDdemo\obj\Debug\RegexDdemo.pdb
