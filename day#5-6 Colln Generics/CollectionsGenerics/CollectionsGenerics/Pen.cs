@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CollectionsGenerics
 {
-    class Pen : IComparable // inteface containing ToCompare method which compares two obj 
+    class Pen : IComparable // interface containing ToCompare method which compares two obj 
     {
         #region Basic Codes
         public int Rate { get; set; }
@@ -64,7 +64,7 @@ namespace CollectionsGenerics
         }
 
 
-        // Delegate ane Event 
+        // Delegate and Event 
         public delegate void RateHandler(string msg); // delegate to display the event msgs
 
         public event RateHandler RateChange; // Defining the event i.e. for the change of Rate
