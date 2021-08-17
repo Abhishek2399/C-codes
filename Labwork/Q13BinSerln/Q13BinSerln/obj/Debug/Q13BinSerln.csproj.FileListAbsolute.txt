@@ -1,0 +1,7 @@
+D:\capgemini\training\technical\C#\Labwork\Q13BinSerln\Q13BinSerln\bin\Debug\Q13BinSerln.exe.config
+D:\capgemini\training\technical\C#\Labwork\Q13BinSerln\Q13BinSerln\bin\Debug\Q13BinSerln.exe
+D:\capgemini\training\technical\C#\Labwork\Q13BinSerln\Q13BinSerln\bin\Debug\Q13BinSerln.pdb
+D:\capgemini\training\technical\C#\Labwork\Q13BinSerln\Q13BinSerln\obj\Debug\Q13BinSerln.csproj.AssemblyReference.cache
+D:\capgemini\training\technical\C#\Labwork\Q13BinSerln\Q13BinSerln\obj\Debug\Q13BinSerln.csproj.CoreCompileInputs.cache
+D:\capgemini\training\technical\C#\Labwork\Q13BinSerln\Q13BinSerln\obj\Debug\Q13BinSerln.exe
+D:\capgemini\training\technical\C#\Labwork\Q13BinSerln\Q13BinSerln\obj\Debug\Q13BinSerln.pdb
