@@ -17,7 +17,7 @@ namespace CollectionsGenerics
 
         public delegate bool SortDelegate<T>(T x, T y); // As this delegate has to sort any type we have to use generic type parameters 
         // as this will compared and will be used in a if statement this will return True or False i.e. Bool
-
+        
         public void MySort<T>(List<T> data, SortDelegate<T> sd) // as the list can be of any specific type we have to make it generic and the delegate we are using is already generic 
         {
             for(int i=0; i<data.Count; i++)
