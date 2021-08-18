@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>IOFileDemo.CollectionSerializationTest</StartupObject>
+    <StartupObject>IOFileDemo.SparshTest</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
@@ -56,7 +56,9 @@
     <Compile Include="JSONSerializationTest.cs" />
     <Compile Include="SerializableMovie.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SerializableSparsh.cs" />
     <Compile Include="SOAPSerializationTest.cs" />
+    <Compile Include="SparshTest.cs" />
     <Compile Include="TxtFileDemo.cs" />
     <Compile Include="XMLSerializationTest.cs" />
   </ItemGroup>

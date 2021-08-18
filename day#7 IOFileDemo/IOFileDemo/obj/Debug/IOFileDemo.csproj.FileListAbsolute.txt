@@ -18,3 +18,13 @@ D:\capgemini\training\technical\C#\IOFileDemo\IOFileDemo\obj\Debug\IOFileDemo.cs
 D:\capgemini\training\technical\C#\IOFileDemo\IOFileDemo\obj\Debug\IOFileDemo.csproj.CopyComplete
 D:\capgemini\training\technical\C#\IOFileDemo\IOFileDemo\obj\Debug\IOFileDemo.exe
 D:\capgemini\training\technical\C#\IOFileDemo\IOFileDemo\obj\Debug\IOFileDemo.pdb
+D:\capgemini\training\technical\C#\day#7 IOFileDemo\IOFileDemo\bin\Debug\IOFileDemo.exe.config
+D:\capgemini\training\technical\C#\day#7 IOFileDemo\IOFileDemo\bin\Debug\IOFileDemo.exe
+D:\capgemini\training\technical\C#\day#7 IOFileDemo\IOFileDemo\bin\Debug\IOFileDemo.pdb
+D:\capgemini\training\technical\C#\day#7 IOFileDemo\IOFileDemo\bin\Debug\Newtonsoft.Json.dll
+D:\capgemini\training\technical\C#\day#7 IOFileDemo\IOFileDemo\bin\Debug\Newtonsoft.Json.xml
+D:\capgemini\training\technical\C#\day#7 IOFileDemo\IOFileDemo\obj\Debug\IOFileDemo.csproj.AssemblyReference.cache
+D:\capgemini\training\technical\C#\day#7 IOFileDemo\IOFileDemo\obj\Debug\IOFileDemo.csproj.CoreCompileInputs.cache
+D:\capgemini\training\technical\C#\day#7 IOFileDemo\IOFileDemo\obj\Debug\IOFileDemo.csproj.CopyComplete
+D:\capgemini\training\technical\C#\day#7 IOFileDemo\IOFileDemo\obj\Debug\IOFileDemo.exe
+D:\capgemini\training\technical\C#\day#7 IOFileDemo\IOFileDemo\obj\Debug\IOFileDemo.pdb
