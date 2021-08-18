@@ -14,7 +14,7 @@ namespace Q13BinSerln
 {
     class Program
     {
-        static string BinSerialize<T>(T toSerialize)
+        static string BinSerialize(object toSerialize)
         {
             string toFile = @"D:\capgemini\training\technical\C#\Labwork\Q13BinSerln\Q13BinSerln\Contacts.bin";
             try
