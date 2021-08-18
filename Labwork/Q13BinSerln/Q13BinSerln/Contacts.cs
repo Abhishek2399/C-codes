@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace Q13BinSerln
 {
     [Serializable]
-    class Contacts
+    public class Contacts
     {
         public string Name { get; set; }
         private long num;
