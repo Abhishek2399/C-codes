@@ -97,8 +97,7 @@ namespace Q13BinSerln
             diary = new List<Contacts>();
             string serialFile; 
             try
-            {
-                
+            {   
                 diary.Add(new Contacts() { Name = "Yash", Num = 666516513 });
                 diary.Add(new Contacts() { Name = "Abhi", Num = 652665162 });
                 diary.Add(new Contacts() { Name = "Sarvesh", Num = 9598956545 });
@@ -110,7 +109,6 @@ namespace Q13BinSerln
 
                 serialFile = SoapSerialize(diary);
                 deSerialized = SoapDeSerialize(serialFile) as List<Contacts>;
-
 
                 foreach (var person in diary)
                 {
