@@ -30,7 +30,7 @@ namespace Q13BinSerln
             return toFile;
         }
 
-        static string SoapSerialize<T>(T toSerialize)
+        static string SoapSerialize(object toSerialize)
         {
             string toFile = @"D:\capgemini\training\technical\C#\Labwork\Q13BinSerln\Q13BinSerln\Contacts.soap";
             try
@@ -51,7 +51,7 @@ namespace Q13BinSerln
 
 
 
-        static object BinDeSerialize<T>(T fromFile)
+        static object BinDeSerialize(string fromFile)
         {
             object toSend;
             try
@@ -70,7 +70,7 @@ namespace Q13BinSerln
             return toSend;
         }
 
-        static object SoapDeSerialize<T>(T fromFile)
+        static object SoapDeSerialize(string fromFile)
         {
             object toSend;
             try
@@ -105,10 +105,10 @@ namespace Q13BinSerln
                 diary.Add(new Contacts() { Name = "Suresh", Num = 7452565854 });
                 diary.Add(new Contacts() { Name = "Ramesh", Num = 665989513 });
 
-                serialFile = BinSerialize<List<Contacts>>(diary);
+                serialFile = BinSerialize(diary);
                 deSerialized = BinDeSerialize(serialFile) as List<Contacts>;
 
-                serialFile = SoapSerialize<List<Contacts>>(diary);
+                serialFile = SoapSerialize(diary);
                 deSerialized = SoapDeSerialize(serialFile) as List<Contacts>;
 
 

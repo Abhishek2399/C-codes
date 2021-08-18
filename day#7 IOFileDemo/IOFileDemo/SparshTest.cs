@@ -19,7 +19,7 @@ namespace IOFileDemo
 
         static string BinarySerialize(object toSerialize)
         {
-            string inFile = @"D:\capgemini\training\technical\C#\day#7 IOFileDemo\IOFileDemo\Sparsh.bin";
+            string inFile = @"D:\capgemini\training\technical\C#\day#7 IOFileDemo\IOFileDemo\Shubham.bin";
             using (FileStream fs =  new FileStream(inFile, FileMode.Create, FileAccess.Write))
             {
                 BinaryFormatter bf = new BinaryFormatter();
@@ -44,7 +44,7 @@ namespace IOFileDemo
 
         static string XmlSerialize(object toSerialize)
         {
-            string inFile = @"D:\capgemini\training\technical\C#\day#7 IOFileDemo\IOFileDemo\Sparsh.xml";
+            string inFile = @"D:\capgemini\training\technical\C#\day#7 IOFileDemo\IOFileDemo\Shubham.xml";
             using (FileStream fs = new FileStream(inFile, FileMode.Create, FileAccess.Write))
             {
                 XmlSerializer xs = new XmlSerializer(typeof(SerializableSparsh)); // will take metadata -> typeof() -> obj to be serialized
@@ -71,7 +71,7 @@ namespace IOFileDemo
 
         static string JsonSerialize(object toSerialize)
         {
-            string inFile = @"D:\capgemini\training\technical\C#\day#7 IOFileDemo\IOFileDemo\Sparsh.json";
+            string inFile = @"D:\capgemini\training\technical\C#\day#7 IOFileDemo\IOFileDemo\Shubham.json";
             using (StreamWriter sw = new StreamWriter(inFile))
             {
                 using (JsonWriter jw = new JsonTextWriter(sw))
@@ -102,7 +102,7 @@ namespace IOFileDemo
 
         static string JsonConvertSerialize(object toSerialize)
         {
-            string inFile = @"D:\capgemini\training\technical\C#\day#7 IOFileDemo\IOFileDemo\Sparsh.txt";
+            string inFile = @"D:\capgemini\training\technical\C#\day#7 IOFileDemo\IOFileDemo\Shubham.txt";
             using (StreamWriter sw = new StreamWriter(inFile))
             {
                 string data = JsonConvert.SerializeObject(toSerialize);
@@ -130,31 +130,29 @@ namespace IOFileDemo
 
         static void Main()
         {
-            SerializableSparsh abhi = new SerializableSparsh() { Name = "Abhi", Age = 21 };
-            Console.WriteLine(abhi);
+            SerializableSparsh shubham = new SerializableSparsh() { Name = "shubham", Age = 21 };
+            Console.WriteLine(shubham);
             string inFile;
             SerializableSparsh abhiDeserial;
             try
             {
-                /*
-                inFile = BinarySerialize(abhi);
+                
+                inFile = BinarySerialize(shubham);
                 abhiDeserial = (SerializableSparsh)BinaryDeSerialize(inFile);
                 Console.WriteLine(abhiDeserial);
 
 
-
-                inFile = XmlSerialize(abhi);
+                inFile = XmlSerialize(shubham);
                 abhiDeserial = XmlDeSerialize(inFile) as SerializableSparsh;
                 Console.WriteLine(abhiDeserial);
 
 
-                inFile = JsonSerialize(abhi);
+                inFile = JsonSerialize(shubham);
                 abhiDeserial = JsonDeSerialize(inFile) as SerializableSparsh;
                 Console.WriteLine(abhiDeserial);
 
-                 */
 
-                inFile = JsonConvertSerialize(abhi);
+                inFile = JsonConvertSerialize(shubham);
                 abhiDeserial = (SerializableSparsh)JsonConvertDeSerialize(inFile);
                 Console.WriteLine(abhiDeserial);
             }
