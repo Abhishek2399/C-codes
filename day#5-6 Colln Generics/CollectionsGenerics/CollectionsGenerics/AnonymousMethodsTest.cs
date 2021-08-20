@@ -7,6 +7,13 @@ using System.Threading.Tasks;
 
 namespace CollectionsGenerics
 {
+
+    class Person
+    {
+        public string Name { get; set; }
+        public int Age { get; set; }
+
+    }
     class AnonymousMethodsTest
     {
         // type of anonymous methods we have to use 
@@ -52,6 +59,18 @@ namespace CollectionsGenerics
             };
 
             show2("Abhi");
+
+
+            List<Person> l = new List<Person>()
+            {
+                new Person(){Name = "Abhi", Age =21},
+                new Person(){Name = "Abhi", Age =19},
+                new Person(){Name = "Abhi", Age =20},
+                new Person(){Name = "Abhi", Age =22},
+            };
+
+            Console.WriteLine(l.Max(p => p.Age));
+
 
         }
     }
