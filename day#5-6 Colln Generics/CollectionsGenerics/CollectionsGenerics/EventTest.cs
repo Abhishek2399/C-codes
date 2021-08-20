@@ -18,7 +18,7 @@ namespace CollectionsGenerics
         {
             StreamWriter sw = new StreamWriter("Event.txt", true);// true is to append the data we are writing
             sw.WriteLine(msg);
-            sw.Close();  // dont forget to close else the data wont be saved 
+            sw.Close();  // don't forget to close else the data wont be saved 
         }
 
         static void Main()
