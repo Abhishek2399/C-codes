@@ -5,3 +5,10 @@ D:\capgemini\training\technical\day#5\CollectionsGenerics\CollectionsGenerics\ob
 D:\capgemini\training\technical\day#5\CollectionsGenerics\CollectionsGenerics\obj\Debug\CollectionsDemo.csproj.CoreCompileInputs.cache
 D:\capgemini\training\technical\day#5\CollectionsGenerics\CollectionsGenerics\obj\Debug\CollectionsGenerics.exe
 D:\capgemini\training\technical\day#5\CollectionsGenerics\CollectionsGenerics\obj\Debug\CollectionsGenerics.pdb
+D:\capgemini\training\technical\C#\day#5-6 Colln Generics\CollectionsGenerics\CollectionsGenerics\obj\Debug\CollectionsDemo.csproj.AssemblyReference.cache
+D:\capgemini\training\technical\C#\day#5-6 Colln Generics\CollectionsGenerics\CollectionsGenerics\obj\Debug\CollectionsDemo.csproj.CoreCompileInputs.cache
+D:\capgemini\training\technical\C#\day#5-6 Colln Generics\CollectionsGenerics\CollectionsGenerics\obj\Debug\CollectionsGenerics.exe
+D:\capgemini\training\technical\C#\day#5-6 Colln Generics\CollectionsGenerics\CollectionsGenerics\obj\Debug\CollectionsGenerics.pdb
+D:\capgemini\training\technical\C#\day#5-6 Colln Generics\CollectionsGenerics\CollectionsGenerics\bin\Debug\CollectionsGenerics.exe.config
+D:\capgemini\training\technical\C#\day#5-6 Colln Generics\CollectionsGenerics\CollectionsGenerics\bin\Debug\CollectionsGenerics.exe
+D:\capgemini\training\technical\C#\day#5-6 Colln Generics\CollectionsGenerics\CollectionsGenerics\bin\Debug\CollectionsGenerics.pdb

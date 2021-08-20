@@ -20,7 +20,6 @@ namespace CollectionsGenerics
 
             // Action takes more than one param but returns nothing 
             // Action delegate is a generic delegate present in the system namespace
-            Action<> action
             
         }
     }
