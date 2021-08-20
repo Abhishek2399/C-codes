@@ -12,10 +12,10 @@ namespace CollectionsGenerics
         static void Main()
         {
             Pen parkor = new Pen { Rate = 200, Color = "red" };
-            // Handling of the event has to be imediately after the object has been created 
+            // Handling of the event has to be immediately after the object has been created 
             parkor.RateChange += ShowMessage; // object subscribing to the event 
-            // handling is just giving some instructions{metho} of what has to be done when the event has raised 
-            // if we want the same event to write the msg to a text file we will multicast the new file writing instructions
+            // handling is just giving some instructions{method} of what has to be done when the event has raised 
+            // if we want the same event to write the message to a text file we will multi cast the new file writing instructions
             parkor.RateChange += WriteToFile;
 
             Console.WriteLine(parkor);
