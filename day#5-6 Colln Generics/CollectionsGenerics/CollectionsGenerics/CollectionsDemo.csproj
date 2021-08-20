@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>CollectionsGenerics.AnonymousMethodsTest</StartupObject>
+    <StartupObject>CollectionsGenerics.QueueTest</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
