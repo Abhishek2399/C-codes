@@ -9,6 +9,18 @@ namespace CollectionsGenerics
 {
     class EventTest
     {
+        public static void ShowMessage(string msg)
+        {
+            Console.WriteLine(msg);
+        }
+
+        public static void WriteToFile(string msg)
+        {
+            StreamWriter sw = new StreamWriter("Event.txt", true);// true is to append the data we are writing
+            sw.WriteLine(msg);
+            sw.Close();  // dont forget to close else the data wont be saved 
+        }
+
         static void Main()
         {
             Pen parkor = new Pen { Rate = 200, Color = "red" };
@@ -28,16 +40,5 @@ namespace CollectionsGenerics
             // Not compulsory to handle all the events 
         }
 
-        public static void ShowMessage(string msg)
-        {
-            Console.WriteLine(msg);
-        }
-
-        public static void WriteToFile(string msg)
-        {
-            StreamWriter sw = new StreamWriter("Event.txt", true);// true is to append the data we are writing
-            sw.WriteLine(msg);
-            sw.Close();  // dont forget to close else the data wont be saved 
-        }
     }
 }
