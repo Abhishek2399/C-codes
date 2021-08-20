@@ -70,6 +70,7 @@ namespace CollectionsGenerics
             };
 
             Console.WriteLine(l.Max(p => p.Age));
+            
         }
     }
 }
