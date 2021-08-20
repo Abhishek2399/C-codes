@@ -71,7 +71,9 @@ namespace CollectionsGenerics
                 new Pen{ Rate = 197, Color = "green"},
 
             };
-            MyDelegates.SortDelegate<Pen> sd = new MyDelegates.SortDelegate<Pen>(useMethod.ColorSort); // sorting by color 
+            MyDelegates.SortDelegate<Pen> sd = new MyDelegates.SortDelegate<Pen>(useMethod.ColorSort); 
+            // in class MyDelegates we have a delegate SortDelegate which is Generic type 
+            // sorting by color 
             myDel.MySort<Pen>(pens, sd); 
             foreach(Pen penObj in pens)
             {
