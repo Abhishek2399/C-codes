@@ -22,7 +22,7 @@ namespace CollectionsGenerics
 
 
             Console.WriteLine(q.Peek());
-
+        
             /*
             Console.WriteLine(q.Dequeue()); // very first comes out very first 
             Console.WriteLine(q.Dequeue());
