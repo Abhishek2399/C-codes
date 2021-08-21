@@ -29,7 +29,7 @@ namespace RegexDdemo
             Console.WriteLine();
             // mathching white space 
             string ip5 = "SuperMan"; // will give false as there is no space after Super
-            string ip6 = "Super Man"; // will give treu as there is space after super 
+            string ip6 = "Super Man"; // will give true as there is space after super 
             string pattern4 = @"^Super\s"; // start with "Super" and there should be a space after Super 
             Console.WriteLine("ip5 is matched " + Regex.IsMatch(ip5, pattern4));
             Console.WriteLine("ip6 is matched " + Regex.IsMatch(ip6, pattern4));
@@ -51,10 +51,6 @@ namespace RegexDdemo
             // using regex obj 
             Regex reg = new Regex(webPattern);
             Console.WriteLine($"Using reg-obj on site1 {reg.IsMatch(website1)}");
-
-
-
-
 
         }
     }
