@@ -20,7 +20,6 @@ namespace CollectionsGenerics
             q.Enqueue(p); // store at the next location 
             // Dequeue to get the element from the Queue
 
-
             Console.WriteLine(q.Peek());
         
             /*
@@ -28,7 +27,6 @@ namespace CollectionsGenerics
             Console.WriteLine(q.Dequeue());
             Console.WriteLine(q.Dequeue());
             */
-
         }
     }
 }
