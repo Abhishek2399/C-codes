@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using OOPSDemo;
 using System.Reflection;
+using System.IO;
 
 // visual studio contains appn that give information 
 // solnExplorer -> References -> system -> object EXplorer[
@@ -17,7 +18,11 @@ namespace DemoReflection
         static void Main(string[] args)
         {
             Pen parkor = new Pen { Color = "Blue", Rate = 21 };
-            
+
+            FileInfo fi = new FileInfo(@"D:\capgemini\training\technical\C#\day#8 Refln\DemoReflection\DemoReflection\DemoRefln.txt");
+
+            Console.WriteLine($"File Exists -> {fi.Exists}");
+
             Console.WriteLine("-----------<Reflection of Pen Instance>-----------------");
             Console.WriteLine($"Name : {parkor.GetType().Name}"); // just the name of the class
             Console.WriteLine($"FullName : {parkor.GetType().FullName}"); // name of class along with fullname 

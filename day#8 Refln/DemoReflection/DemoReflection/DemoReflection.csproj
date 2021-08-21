@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>DemoReflection.CustomAttrDemoInfoTest</StartupObject>
+    <StartupObject>DemoReflection.DemoRefln</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />

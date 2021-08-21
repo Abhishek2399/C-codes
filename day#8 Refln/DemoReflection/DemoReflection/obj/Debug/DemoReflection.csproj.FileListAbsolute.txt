@@ -5,3 +5,10 @@ D:\capgemini\training\technical\day#8\DemoReflection\DemoReflection\obj\Debug\De
 D:\capgemini\training\technical\day#8\DemoReflection\DemoReflection\obj\Debug\DemoReflection.csproj.CoreCompileInputs.cache
 D:\capgemini\training\technical\day#8\DemoReflection\DemoReflection\obj\Debug\DemoReflection.exe
 D:\capgemini\training\technical\day#8\DemoReflection\DemoReflection\obj\Debug\DemoReflection.pdb
+D:\capgemini\training\technical\C#\day#8 Refln\DemoReflection\DemoReflection\bin\Debug\DemoReflection.exe.config
+D:\capgemini\training\technical\C#\day#8 Refln\DemoReflection\DemoReflection\bin\Debug\DemoReflection.exe
+D:\capgemini\training\technical\C#\day#8 Refln\DemoReflection\DemoReflection\bin\Debug\DemoReflection.pdb
+D:\capgemini\training\technical\C#\day#8 Refln\DemoReflection\DemoReflection\obj\Debug\DemoReflection.csproj.AssemblyReference.cache
+D:\capgemini\training\technical\C#\day#8 Refln\DemoReflection\DemoReflection\obj\Debug\DemoReflection.csproj.CoreCompileInputs.cache
+D:\capgemini\training\technical\C#\day#8 Refln\DemoReflection\DemoReflection\obj\Debug\DemoReflection.exe
+D:\capgemini\training\technical\C#\day#8 Refln\DemoReflection\DemoReflection\obj\Debug\DemoReflection.pdb
