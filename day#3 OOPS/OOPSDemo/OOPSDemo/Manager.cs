@@ -11,6 +11,10 @@ namespace OOPSDemo
         public int HRA { get; set; }
         public int DA { get; set; }
 
+        public Manager()
+        {
+            
+        }
         public new string Display() // new states that this Display belongs to the DErived class
 
         {

@@ -18,6 +18,11 @@ namespace OOPSDemo
         public string EmpSurname { get; set; }
         public abstract int SalaryCalc();
 
+        public Employee()
+        {
+
+        }
+
         public string Display()
         {
             string display = $"Name : {EmpName} {EmpSurname} \n";

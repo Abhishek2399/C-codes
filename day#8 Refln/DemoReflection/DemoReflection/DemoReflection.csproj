@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>DemoReflection.DemoRefln</StartupObject>
+    <StartupObject>DemoReflection.Test</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -54,6 +54,7 @@
     <Compile Include="MyMath.cs" />
     <Compile Include="Pen.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Test.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

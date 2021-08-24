@@ -10,8 +10,8 @@ namespace OOPSDemo
     class MyException : ApplicationException // user defined exception has to inherit from Applicaiton Exception class
     {
         // here the constructor will call the ApplicationException constr. which will in turn call the Exception class
-        public MyException(string msg) : base(msg) {  // string msg passed to the MyException class will pass that str to the base constructor class
-            WriteToFile(msg);
+        public MyException(string msg, int num){  // string msg passed to the MyException class will pass that str to the base constructor class
+            base(msg);
         }
 
         public static void WriteToFile(string msg)

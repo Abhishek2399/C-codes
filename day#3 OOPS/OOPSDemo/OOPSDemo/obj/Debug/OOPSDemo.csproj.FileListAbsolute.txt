@@ -10,3 +10,15 @@ D:\capgemini\training\technical\day#3\OOPSDemo\OOPSDemo\obj\Debug\OOPSDemo.cspro
 D:\capgemini\training\technical\day#3\OOPSDemo\OOPSDemo\bin\Debug\Banking2.pdb
 D:\capgemini\training\technical\day#3\OOPSDemo\OOPSDemo\bin\Debug\Banking2.dll
 D:\capgemini\training\technical\day#3\OOPSDemo\OOPSDemo\bin\Debug\JBanking.pdb
+D:\capgemini\training\technical\C#\day#3 OOPS\OOPSDemo\OOPSDemo\bin\Debug\OOPSDemo.exe.config
+D:\capgemini\training\technical\C#\day#3 OOPS\OOPSDemo\OOPSDemo\bin\Debug\OOPSDemo.exe
+D:\capgemini\training\technical\C#\day#3 OOPS\OOPSDemo\OOPSDemo\bin\Debug\OOPSDemo.pdb
+D:\capgemini\training\technical\C#\day#3 OOPS\OOPSDemo\OOPSDemo\bin\Debug\Banking2.dll
+D:\capgemini\training\technical\C#\day#3 OOPS\OOPSDemo\OOPSDemo\bin\Debug\Banking2.pdb
+D:\capgemini\training\technical\C#\day#3 OOPS\OOPSDemo\OOPSDemo\bin\Debug\Entertainment.pdb
+D:\capgemini\training\technical\C#\day#3 OOPS\OOPSDemo\OOPSDemo\bin\Debug\JBanking.pdb
+D:\capgemini\training\technical\C#\day#3 OOPS\OOPSDemo\OOPSDemo\obj\Debug\OOPSDemo.csproj.AssemblyReference.cache
+D:\capgemini\training\technical\C#\day#3 OOPS\OOPSDemo\OOPSDemo\obj\Debug\OOPSDemo.csproj.CoreCompileInputs.cache
+D:\capgemini\training\technical\C#\day#3 OOPS\OOPSDemo\OOPSDemo\obj\Debug\OOPSDemo.csproj.CopyComplete
+D:\capgemini\training\technical\C#\day#3 OOPS\OOPSDemo\OOPSDemo\obj\Debug\OOPSDemo.exe
+D:\capgemini\training\technical\C#\day#3 OOPS\OOPSDemo\OOPSDemo\obj\Debug\OOPSDemo.pdb

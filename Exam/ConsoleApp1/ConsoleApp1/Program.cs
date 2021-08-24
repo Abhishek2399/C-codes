@@ -19,11 +19,23 @@ namespace ConsoleApp1
 		public string GetName(IList<Person> person)
 		{
 			string info = "";
+			StringBuilder sb = new StringBuilder();
+			int count = 0;
 			foreach (var data in person)
 			{
-				info += $"{data.Name} {data.Address} ";
+				count++;
+
+				if (count < person.Count)
+                {
+					sb.Append(data.Name);
+					sb.Append(',');
+                }
+                else
+                {
+					sb.Append(data.Name);
+				}
 			}
-			return info;
+			return sb.ToString();
 		}
 
 		public double Average(IList<Person> person)

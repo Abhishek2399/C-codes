@@ -8,7 +8,7 @@ namespace MovieDataAccessLayer
 {
     public class MovieDAL   
     {
-        public static List<Movie> movies = new List<Movie>() { //creting static collection of movies.bcoz currently we dont have database.
+        public static List<Movie> movies = new List<Movie>() { //creating static collection of movies.bcoz currently we dont have database.
         new Movie{Id=1,Name="Abx",Rating = 4,Year=2020 },
         new Movie{Id=2,Name="Bcz",Rating = 3,Year=2002 },
         new Movie{Id=3,Name="Pqr",Rating = 2,Year=2014 },

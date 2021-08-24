@@ -26,7 +26,10 @@ namespace DemoReflection
             Console.WriteLine("-----------<Reflection of Pen Instance>-----------------");
             Console.WriteLine($"Name : {parkor.GetType().Name}"); // just the name of the class
             Console.WriteLine($"FullName : {parkor.GetType().FullName}"); // name of class along with fullname 
-            Console.WriteLine($"Assembly : {parkor.GetType().Assembly.ToString()}"); // Assembly info{ProjectName, Version, PublicKey, Culture} Culture : Currency Symbol, date time format are diff in diff countries this is nothing but culture 
+            Console.WriteLine($"Assembly : {parkor.GetType().Assembly.ToString()}"); // Assembly info{ProjectName, Version, PublicKey,
+                                                                                     // Culture} Culture : Currency Symbol, date time format are diff in diff countries this is nothing but culture 
+
+
             Console.WriteLine("--------------------------------------------------------");
 
             Console.WriteLine();
@@ -36,6 +39,19 @@ namespace DemoReflection
             Console.WriteLine($"Name : {penType.Name}"); // just the name of the class
             Console.WriteLine($"FullName : {penType.FullName}"); // name of class along with fullname 
             Console.WriteLine($"Assembly : {penType.Assembly.ToString()}"); // Assembly info{ProjectName, Version, PublicKey, Culture} Culture : Currency Symbol, date time format are diff in diff countries this is nothing but culture 
+
+
+            Console.WriteLine("-----------------Properties-----------------");
+            foreach(var data in penType.GetProperties())
+            {
+                Console.WriteLine($"{data} ----------------- {data.PropertyType}");
+                if(data.PropertyType is System.String)
+                {
+                    Console.WriteLine(data);
+                    data.SetValue(data.Name, 45);
+                }
+            }
+            
             Console.WriteLine("--------------------------------------------------------");
 
             
@@ -48,6 +64,8 @@ namespace DemoReflection
                 Console.WriteLine($"{mi.Name} ------------ {mi.MemberType}");// mi.Name name of the member, mi.MemberType type of the curret member 
             }
             Console.WriteLine("-------------------------------------------------");
+
+
 
         }
     }
