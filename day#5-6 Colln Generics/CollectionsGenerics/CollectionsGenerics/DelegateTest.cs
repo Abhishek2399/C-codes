@@ -61,6 +61,7 @@ namespace CollectionsGenerics
             #endregion
 
             Pen useMethod = new Pen();
+
             List<Pen> pens = new List<Pen>()
             {
                 new Pen{ Rate = 129, Color = "red"},
@@ -69,8 +70,9 @@ namespace CollectionsGenerics
                 new Pen{ Rate = 139, Color = "yellow"},
                 new Pen{ Rate = 19, Color = "orange"},
                 new Pen{ Rate = 197, Color = "green"},
-
             };
+
+
             MyDelegates.SortDelegate<Pen> sd = new MyDelegates.SortDelegate<Pen>(useMethod.ColorSort); 
             // in class MyDelegates we have a delegate SortDelegate which is Generic type 
             // sorting by color 

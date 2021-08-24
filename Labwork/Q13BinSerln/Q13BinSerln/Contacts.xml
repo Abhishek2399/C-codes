@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<ArrayOfContacts xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Contacts>
+    <Name>Yash</Name>
+    <Num>666516513</Num>
+  </Contacts>
+  <Contacts>
+    <Name>Abhi</Name>
+    <Num>652665162</Num>
+  </Contacts>
+  <Contacts>
+    <Name>Sarvesh</Name>
+    <Num>9598956545</Num>
+  </Contacts>
+  <Contacts>
+    <Name>Suresh</Name>
+    <Num>7452565854</Num>
+  </Contacts>
+  <Contacts>
+    <Name>Ramesh</Name>
+    <Num>665989513</Num>
+  </Contacts>
+</ArrayOfContacts>

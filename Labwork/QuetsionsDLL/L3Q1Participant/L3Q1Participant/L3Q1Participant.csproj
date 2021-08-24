@@ -4,17 +4,16 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{D74F0341-9A25-44B3-8BD2-ACB709DF90EF}</ProjectGuid>
-    <OutputType>Exe</OutputType>
-    <RootNamespace>CollectionsGenerics</RootNamespace>
-    <AssemblyName>CollectionsGenerics</AssemblyName>
+    <ProjectGuid>{8C76B570-085B-4DB0-B524-A835CE1E2354}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>L3Q1Participant</RootNamespace>
+    <AssemblyName>L3Q1Participant</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
-    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
@@ -24,16 +23,12 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-  </PropertyGroup>
-  <PropertyGroup>
-    <StartupObject>CollectionsGenerics.DelPracTest</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -46,29 +41,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AnonymousMethodsTest.cs" />
-    <Compile Include="ArrayListTest.cs" />
-    <Compile Include="DelegatePrac.cs" />
-    <Compile Include="DelegateTest.cs" />
-    <Compile Include="DelPracTest.cs" />
-    <Compile Include="EventTest.cs" />
-    <Compile Include="InBuiltDelegateTest.cs" />
-    <Compile Include="MyDelegates.cs" />
-    <Compile Include="DictionaryTest.cs" />
-    <Compile Include="GenericsTest.cs" />
-    <Compile Include="HashTableTest.cs" />
-    <Compile Include="ListTest.cs" />
-    <Compile Include="MyCalendar.cs" />
-    <Compile Include="MyList.cs" />
-    <Compile Include="MyListTest.cs" />
-    <Compile Include="Pen.cs" />
-    <Compile Include="Program.cs" />
+    <Compile Include="Participant.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="QueueTest.cs" />
-    <Compile Include="StackTest.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="App.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -1,0 +1,10 @@
+D:\capgemini\training\technical\C#\Labwork\L3Soln\L3Soln\obj\Debug\L3Soln.csproj.AssemblyReference.cache
+D:\capgemini\training\technical\C#\Labwork\L3Soln\L3Soln\obj\Debug\L3Soln.csproj.CoreCompileInputs.cache
+D:\capgemini\training\technical\C#\Labwork\L3Soln\L3Soln\bin\Debug\L3Soln.exe.config
+D:\capgemini\training\technical\C#\Labwork\L3Soln\L3Soln\bin\Debug\L3Soln.exe
+D:\capgemini\training\technical\C#\Labwork\L3Soln\L3Soln\bin\Debug\L3Soln.pdb
+D:\capgemini\training\technical\C#\Labwork\L3Soln\L3Soln\bin\Debug\L3Q1Participant.dll
+D:\capgemini\training\technical\C#\Labwork\L3Soln\L3Soln\bin\Debug\L3Q1Participant.pdb
+D:\capgemini\training\technical\C#\Labwork\L3Soln\L3Soln\obj\Debug\L3Soln.csproj.CopyComplete
+D:\capgemini\training\technical\C#\Labwork\L3Soln\L3Soln\obj\Debug\L3Soln.exe
+D:\capgemini\training\technical\C#\Labwork\L3Soln\L3Soln\obj\Debug\L3Soln.pdb

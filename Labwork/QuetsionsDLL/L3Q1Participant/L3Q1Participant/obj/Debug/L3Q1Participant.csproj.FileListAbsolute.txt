@@ -1,0 +1,6 @@
+D:\capgemini\training\technical\C#\Labwork\QuetsionsDLL\L3Q1Participant\L3Q1Participant\bin\Debug\L3Q1Participant.dll
+D:\capgemini\training\technical\C#\Labwork\QuetsionsDLL\L3Q1Participant\L3Q1Participant\bin\Debug\L3Q1Participant.pdb
+D:\capgemini\training\technical\C#\Labwork\QuetsionsDLL\L3Q1Participant\L3Q1Participant\obj\Debug\L3Q1Participant.csproj.AssemblyReference.cache
+D:\capgemini\training\technical\C#\Labwork\QuetsionsDLL\L3Q1Participant\L3Q1Participant\obj\Debug\L3Q1Participant.csproj.CoreCompileInputs.cache
+D:\capgemini\training\technical\C#\Labwork\QuetsionsDLL\L3Q1Participant\L3Q1Participant\obj\Debug\L3Q1Participant.dll
+D:\capgemini\training\technical\C#\Labwork\QuetsionsDLL\L3Q1Participant\L3Q1Participant\obj\Debug\L3Q1Participant.pdb

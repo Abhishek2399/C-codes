@@ -59,7 +59,6 @@ namespace CollectionsGenerics
 
         public bool RateSort(Pen data, Pen data2)
         {
-
             return (data.Rate - data2.Rate) > 0;
         }
 
