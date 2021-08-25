@@ -51,7 +51,7 @@ namespace L10Soln
             }    
         }
 
-
+        
         static void PerfArthOperations(int num1, int num2, ArithOperation.ArthOp arthDel)
         {
             Console.WriteLine($"Ans -> {arthDel(num1, num2)}");

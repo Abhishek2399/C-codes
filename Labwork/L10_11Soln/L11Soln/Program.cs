@@ -8,8 +8,16 @@ namespace L11Soln
 {
     class Program
     {
+        public void Notification(string msg)
+        {
+            Console.WriteLine(msg);
+        }
+
         static void Main(string[] args)
         {
+            CreditClass abhi = new CreditClass();
+            Console.WriteLine(CreditClass.creditLimit);
         }
     }
+
 }

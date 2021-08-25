@@ -1,7 +1,0 @@
-D:\capgemini\training\technical\C#\Labwork\L10Soln\L10Soln\bin\Debug\L10Soln.exe.config
-D:\capgemini\training\technical\C#\Labwork\L10Soln\L10Soln\bin\Debug\L10Soln.exe
-D:\capgemini\training\technical\C#\Labwork\L10Soln\L10Soln\bin\Debug\L10Soln.pdb
-D:\capgemini\training\technical\C#\Labwork\L10Soln\L10Soln\obj\Debug\L10Soln.csproj.AssemblyReference.cache
-D:\capgemini\training\technical\C#\Labwork\L10Soln\L10Soln\obj\Debug\L10Soln.csproj.CoreCompileInputs.cache
-D:\capgemini\training\technical\C#\Labwork\L10Soln\L10Soln\obj\Debug\L10Soln.exe
-D:\capgemini\training\technical\C#\Labwork\L10Soln\L10Soln\obj\Debug\L10Soln.pdb

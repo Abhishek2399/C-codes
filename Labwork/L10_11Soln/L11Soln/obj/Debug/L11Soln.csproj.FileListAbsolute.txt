@@ -1,0 +1,7 @@
+D:\capgemini\training\technical\C#\Labwork\L10_11Soln\L11Soln\bin\Debug\L11Soln.exe.config
+D:\capgemini\training\technical\C#\Labwork\L10_11Soln\L11Soln\bin\Debug\L11Soln.exe
+D:\capgemini\training\technical\C#\Labwork\L10_11Soln\L11Soln\bin\Debug\L11Soln.pdb
+D:\capgemini\training\technical\C#\Labwork\L10_11Soln\L11Soln\obj\Debug\L11Soln.csproj.AssemblyReference.cache
+D:\capgemini\training\technical\C#\Labwork\L10_11Soln\L11Soln\obj\Debug\L11Soln.csproj.CoreCompileInputs.cache
+D:\capgemini\training\technical\C#\Labwork\L10_11Soln\L11Soln\obj\Debug\L11Soln.exe
+D:\capgemini\training\technical\C#\Labwork\L10_11Soln\L11Soln\obj\Debug\L11Soln.pdb
