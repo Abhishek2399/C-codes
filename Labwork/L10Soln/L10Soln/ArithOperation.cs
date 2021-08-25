@@ -51,6 +51,12 @@ namespace L10Soln
             }    
         }
 
+
+        static void PerfArthOperations(int num1, int num2, ArithOperation.ArthOp arthDel)
+        {
+            Console.WriteLine($"Ans -> {arthDel(num1, num2)}");
+        }
+
         static void Main()
         {
             try
@@ -72,8 +78,8 @@ namespace L10Soln
 
                         Console.WriteLine("Enter the first number :");
                         num2 = Convert.ToInt32(Console.ReadLine());
-
-                        Console.WriteLine(arthDel[toDo - 1](num1, num2));
+                        PerfArthOperations(num1, num2, arthDel[toDo - 1]);
+                 
                     }
                 } while (toDo != -1);
             }
