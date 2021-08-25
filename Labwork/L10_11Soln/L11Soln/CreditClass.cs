@@ -31,20 +31,18 @@ namespace L11Soln
             return creditLimit;
         }
 
-        public int MakePayment(int amount)
+        public void MakePayment(int amount)
         {
             if (amount < creditLimit)
             {
                 BalanceAmount -= amount;
                 if (PaymentEvent != null)
-                    PaymentEvent($"Payment of {amount}.rs Done");
-                return amount;
+                    PaymentEvent($"Card Holder : {CardHolderName} \nPayment of {amount}.rs Done\nBalance : {BalanceAmount}");
             }
             else
             {
                 if(PaymentEvent != null)
-                    PaymentEvent($"Credit Limit Exceeded");
-                throw new Exception("Ex : Credit Limit Exceeded");
+                    PaymentEvent($"Card Holder : {CardHolderName}\nError : Credit Limit Exceeded");   
             }
         }
 
