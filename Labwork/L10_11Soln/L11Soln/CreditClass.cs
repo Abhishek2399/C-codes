@@ -46,8 +46,8 @@ namespace L11Soln
             }
         }
 
-        public delegate void PaymentHandler(string msg);
+        public delegate void PaymentHandler(string msg); // delegate 
 
-        public event PaymentHandler PaymentEvent;
+        public event PaymentHandler PaymentEvent; // event has to be of type delegate 
     }
 }
