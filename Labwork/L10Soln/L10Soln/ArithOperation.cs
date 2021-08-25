@@ -53,26 +53,34 @@ namespace L10Soln
 
         static void Main()
         {
-            ArithOperation arth = new ArithOperation();
-            List<ArithOperation.ArthOp> arthDel = new List<ArithOperation.ArthOp>(){ arth.Add, arth.Sub, arth.Mul, arth.Divide, arth.Max};
-            int toDo = 0, num1 = 0, num2 = 0;
-            do
+            try
             {
-                ShowOperations();
-                Console.WriteLine("Enter you choice ");
-                toDo = Convert.ToInt32(Console.ReadLine());
-                if (toDo > 0 && toDo < operations.Count) {
-                    Console.WriteLine($"Operation Selected -> {operations[toDo - 1]}");
+                ArithOperation arth = new ArithOperation();
+                List<ArithOperation.ArthOp> arthDel = new List<ArithOperation.ArthOp>() { arth.Add, arth.Sub, arth.Mul, arth.Divide, arth.Max };
+                int toDo = 0, num1 = 0, num2 = 0;
+                do
+                {
+                    ShowOperations();
+                    Console.WriteLine("Enter you choice ");
+                    toDo = Convert.ToInt32(Console.ReadLine());
+                    if (toDo > 0 && toDo < operations.Count)
+                    {
+                        Console.WriteLine($"Operation Selected -> {operations[toDo - 1].Split('.')[1]}");
 
-                    Console.WriteLine("Enter the first number :");
-                    num1 = Convert.ToInt32(Console.ReadLine());
+                        Console.WriteLine("Enter the first number :");
+                        num1 = Convert.ToInt32(Console.ReadLine());
 
-                    Console.WriteLine("Enter the first number :");
-                    num2 = Convert.ToInt32(Console.ReadLine());
+                        Console.WriteLine("Enter the first number :");
+                        num2 = Convert.ToInt32(Console.ReadLine());
 
-                    Console.WriteLine(arthDel[toDo - 1](num1, num2)); 
-                }
-            } while (toDo != -1);
+                        Console.WriteLine(arthDel[toDo - 1](num1, num2));
+                    }
+                } while (toDo != -1);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
 
         }
 
