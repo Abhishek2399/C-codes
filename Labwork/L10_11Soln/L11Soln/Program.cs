@@ -8,15 +8,25 @@ namespace L11Soln
 {
     class Program
     {
-        public void Notification(string msg)
+        public static void Notification(string msg)
         {
             Console.WriteLine(msg);
         }
 
         static void Main(string[] args)
         {
-            CreditClass abhi = new CreditClass();
-            Console.WriteLine(CreditClass.creditLimit);
+            try
+            {
+                CreditClass abhi = new CreditClass(name: "abhi", cardNo: 127, balance: 250000);
+                Console.WriteLine(CreditClass.creditLimit);
+                CreditClass.PaymentHandler payHandle = Notification; // for raising the event
+                abhi.PaymentEvent += payHandle; // subscribing for the event
+                abhi.MakePayment(2600);
+            }
+            catch(Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
         }
     }
 

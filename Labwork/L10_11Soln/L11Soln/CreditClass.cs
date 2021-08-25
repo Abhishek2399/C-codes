@@ -13,6 +13,14 @@ namespace L11Soln
         public int BalanceAmount { get; set; }
         public static int creditLimit = 2500 ;
 
+        public CreditClass(string name, int cardNo, int balance)
+        {
+            CreditCardNo = cardNo;
+            CardHolderName = name;
+            BalanceAmount = balance;
+        }
+
+
         public int GetBalance()
         {
             return BalanceAmount;
@@ -34,7 +42,9 @@ namespace L11Soln
             }
             else
             {
-                throw new Exception("Credit Limit Exceeded");
+                if(PaymentEvent != null)
+                    PaymentEvent($"Credit Limit Exceeded");
+                throw new Exception("Ex : Credit Limit Exceeded");
             }
         }
 
