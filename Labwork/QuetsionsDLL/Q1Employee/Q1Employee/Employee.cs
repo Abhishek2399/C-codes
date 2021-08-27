@@ -7,7 +7,7 @@ using System.Collections; // for the IEnumerable interface
 
 namespace Q1Employee
 {
-    public class Employee : IEnumerable
+    public class Employee 
     {
         public int EmployeeID { get; set; }
         public string EmployeeName { get; set; }

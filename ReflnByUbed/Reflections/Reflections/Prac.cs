@@ -21,7 +21,6 @@ namespace Reflections
             Type mirror = typeof(Prac);
             object obj = Activator.CreateInstance(typeof(Prac));
             PropertyInfo[] props = mirror.GetProperties();
-
             object newVal = 99;
             Console.WriteLine(mirror.GetProperty("Num").GetIndexParameters());
             mirror.GetProperty("Num").SetValue(obj, newVal);
