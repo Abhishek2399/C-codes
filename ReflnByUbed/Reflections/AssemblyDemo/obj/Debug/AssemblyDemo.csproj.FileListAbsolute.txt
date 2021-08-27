@@ -1,0 +1,6 @@
+D:\capgemini\training\technical\C#\ReflnByUbed\Reflections\AssemblyDemo\bin\Debug\AssemblyDemo.dll
+D:\capgemini\training\technical\C#\ReflnByUbed\Reflections\AssemblyDemo\bin\Debug\AssemblyDemo.pdb
+D:\capgemini\training\technical\C#\ReflnByUbed\Reflections\AssemblyDemo\obj\Debug\AssemblyDemo.csproj.AssemblyReference.cache
+D:\capgemini\training\technical\C#\ReflnByUbed\Reflections\AssemblyDemo\obj\Debug\AssemblyDemo.csproj.CoreCompileInputs.cache
+D:\capgemini\training\technical\C#\ReflnByUbed\Reflections\AssemblyDemo\obj\Debug\AssemblyDemo.dll
+D:\capgemini\training\technical\C#\ReflnByUbed\Reflections\AssemblyDemo\obj\Debug\AssemblyDemo.pdb

@@ -46,7 +46,7 @@ namespace L11Soln
             }
         }
 
-        public delegate void PaymentHandler(string msg); // delegate 
+        public delegate void PaymentHandler(string msg); // delegate to hold function used to raise event 
 
         public event PaymentHandler PaymentEvent; // event has to be of type delegate 
     }

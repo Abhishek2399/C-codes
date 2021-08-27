@@ -1,0 +1,7 @@
+D:\capgemini\training\technical\C#\ReflnByUbed\Reflections\Reflections\bin\Debug\Reflections.exe.config
+D:\capgemini\training\technical\C#\ReflnByUbed\Reflections\Reflections\bin\Debug\Reflections.exe
+D:\capgemini\training\technical\C#\ReflnByUbed\Reflections\Reflections\bin\Debug\Reflections.pdb
+D:\capgemini\training\technical\C#\ReflnByUbed\Reflections\Reflections\obj\Debug\Reflections.csproj.AssemblyReference.cache
+D:\capgemini\training\technical\C#\ReflnByUbed\Reflections\Reflections\obj\Debug\Reflections.csproj.CoreCompileInputs.cache
+D:\capgemini\training\technical\C#\ReflnByUbed\Reflections\Reflections\obj\Debug\Reflections.exe
+D:\capgemini\training\technical\C#\ReflnByUbed\Reflections\Reflections\obj\Debug\Reflections.pdb
